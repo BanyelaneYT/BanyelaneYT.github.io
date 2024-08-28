@@ -1,0 +1,3 @@
+[22-Jun-2022 16:32:49 America/New_York] PHP Warning:  require(../conexion/conexion.php): failed to open stream: No such file or directory in /home/hostperfecto/public_html/delgado/proyecto/editar/update/updateDataHotel.php on line 2
+[22-Jun-2022 16:32:49 America/New_York] PHP Warning:  require(../conexion/conexion.php): failed to open stream: No such file or directory in /home/hostperfecto/public_html/delgado/proyecto/editar/update/updateDataHotel.php on line 2
+[22-Jun-2022 16:32:49 America/New_York] PHP Fatal error:  require(): Failed opening required '../conexion/conexion.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/hostperfecto/public_html/delgado/proyecto/editar/update/updateDataHotel.php on line 2

@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: url(../img/fondo.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.side-bar{
+    background: rgba(17, 1, 1, 0.432);
+    width: 290px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    overflow-y: auto;
+    transition: 0.6s ease;
+    transition-property: left;
+}
+
+.side-bar.active{
+    left: 0;
+}
+
+.side-bar .menu{
+    width: 100%;
+    margin-top: 80px;
+}
+.side-bar .menu .item{
+    position: relative;
+    cursor: pointer;
+}
+.side-bar .menu .item a{
+    color: rgb(20, 3, 3);
+    font-size: 16px;
+    text-decoration: none;
+    display: block;
+    padding: 5px 30px;
+    line-height: 60px;
+}
+.side-bar .menu .item a:hover{
+    background: rgb(23, 2, 2);
+    transition: 0.3s ease;
+}
+.side-bar .menu .item i{
+    margin-right: 15px;
+}
+.side-bar .menu .item a .dropdown{
+    position: absolute;
+    right: 0;
+    margin: 20px;
+}
+
+.side-bar .menu .item .sub-menu{
+    background: rgba(14, 1, 1, 0.432);
+}
+
+.side-bar .menu .item .sub-menu a{
+    padding-left: 60px;
+}
+
+.rotate{
+    transform: rotate(30deg);
+}
+
+.close-btn{
+
+    color: rgb(28, 3, 3);
+    font-size: 20px;
+    margin: 25px;
+    cursor: pointer;
+}
+
+.menu-btn{
+    color: rgb(21, 5, 5);
+    font-size: 20px;
+    margin: 25px;
+    cursor: pointer;
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}

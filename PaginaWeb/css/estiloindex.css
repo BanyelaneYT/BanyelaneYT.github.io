@@ -1,0 +1,95 @@
+body{
+    font-family: sans-serif;
+    background-color: black;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+nav a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    padding: 30px;
+}
+
+nav a:hover{
+    color: #BEB8B8;
+}
+
+header{
+    display: flex;
+    height: 100px;
+    background-color: #0F0F0F;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo{
+    font-style: italic;
+    color: yellow;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.caja1{
+    background-color: #FFF164;
+    height: 500px;
+}
+
+.caja2{
+    background-color: black;
+    height: 550px;
+}
+
+.caja2 img{
+    width: 1700px;
+    height: 540px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    
+}
+
+.caja2 h1{
+    font-size: 3rem;
+    color: white;
+    position: absolute;
+
+}
+
+footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 400;
+    width: 100vw;
+    padding-top:40px;
+}
+
+
+.footer-bottom{
+    background: #0F0F0F;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span{
+    text-transform: uppercase;
+}
+
+.footer-bottom #copy{
+    color: white;
+
+}
